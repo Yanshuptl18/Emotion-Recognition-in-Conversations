@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS and Editor files
+.DS_Store
+*/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Research papers (do not commit)
+*.pdf
+2305.14071v1.pdf
+
+# Checkpoints and saved model weights
+model_save_dir/**/*.pth
+model_save_dir/*.pth
+!model_save_dir/**/.gitkeep
+
+# Saved latent representations
+latent_save_dir/**/*.pt
+latent_save_dir/*.pt
+!latent_save_dir/**/.gitkeep
+
+# Datasets (large files downloaded separately)
+data/**/*.json
+data/**/*.pkl
+!data/.gitkeep
+
+# Virtual environment
+venv/
+env/
+.env
